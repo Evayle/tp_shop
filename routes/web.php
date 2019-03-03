@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 后台用户管理
+Route::get('admin/users/delete', 'Admin\UsersController@delete');// 软删除
+Route::resource('admin/users', 'Admin\UsersController');
