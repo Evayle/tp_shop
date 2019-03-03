@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//这个是xxx
+Route::get('admin/user','AddController@user');

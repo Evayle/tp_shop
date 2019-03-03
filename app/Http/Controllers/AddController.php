@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class AddController extends Controller
 {
-    echo "测试";
+    public function user(){
+    	echo 13;
+    }
 }
